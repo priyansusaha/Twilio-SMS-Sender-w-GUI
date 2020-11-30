@@ -7,8 +7,8 @@ window.iconbitmap("sms.ico")
 window.config(background="#292929")
 window.geometry("293x200")
 
-account_sid = 'ACCOUNT SID' #Make a Twilio A/c and past the Account SID
-auth_token = 'AUTH TOKEN' #Make a Twilio A/c and past the Auth Token
+account_sid = 'ACCOUNT SID' #Make a Twilio A/c and paste the Account SID
+auth_token = 'AUTH TOKEN' #Make a Twilio A/c and paste the Auth Token
 client = Client(account_sid, auth_token)
 
 Label(window,text="SMS", font=("Times", "36", "bold italic"), bg="#292929", fg="yellow").place(x=100,y=-1)
